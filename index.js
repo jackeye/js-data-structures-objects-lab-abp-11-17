@@ -4,8 +4,6 @@
  };
 
  function  updateDriverWithKeyAndValue(driver, name, "Sam" ){
-    return Object.assign({}, driver, { [name]: "Sam" });
+    return Object.assign({}, driver, { [key]: value });
 
 };
-
-
