@@ -4,11 +4,8 @@
  };
 
  function  updateDriverWithKeyAndValue(driver, name, "Sam" ){
-    return driver;
+    return Object.assign({}, driver, { [name]: "Sam" });
 
 };
 
-function  updateDriverWithKeyAndValue(driver, 'address', '12 Broadway'){
-   return driver;
 
-};
