@@ -2,6 +2,6 @@
  const driver =  {};
 
  function  updateDriverWithKeyAndValue(driver, name, 'Sam'){
-    return driver.name;
+    return driver;
 
 };
