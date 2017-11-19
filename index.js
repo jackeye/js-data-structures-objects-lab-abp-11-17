@@ -3,7 +3,12 @@
    name: "Sam";
  };
 
- function  updateDriverWithKeyAndValue(driver, name, "Same" ){
+ function  updateDriverWithKeyAndValue(driver, name, "Sam" ){
     return driver;
+
+};
+
+function  updateDriverWithKeyAndValue(driver, 'address', '12 Broadway'){
+   return driver;
 
 };
